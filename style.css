@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1500px;
+    margin: auto;
+     
+}
+
+header {
+    border: 2px solid  #D6001C;
+    background-image: url('img/snow_winter_trees.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+
+}
+
+ nav{ 
+    border: 4px solid #D6001C;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+     }
+
+nav img {
+    height: 35px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px; 
+}
+
+
+
+.vanster-kolumn {
+    border: 2px solid #D6001C;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.vanster-kolumn img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.vanster-kolumn a {
+    margin-top: 5px;
+}
+
+
+
+article {
+    border: 2px solid #D6001C;
+    flex: 1; 
+    padding: 15px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    border: 2px solid #D6001C;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
